@@ -83,3 +83,27 @@ html {
 .heading-container h6{
     font-size: 48px;
 }
+
+/* article-section  */
+.article-container{
+    width: 90%;
+    margin: 0 auto;
+    margin:60px;
+}
+.article-container p{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 38.73px;
+    margin-bottom: 20px;
+}
+.article-container span{
+    font-weight: 700;
+}
+
+.article-container::after {
+    content: ""; 
+    display: block; 
+    border-bottom: 2px solid #0000001F; 
+    height: 2px; 
+}
