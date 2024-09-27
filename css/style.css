@@ -51,7 +51,7 @@ html {
 
 .header-details h1 {
     font-size: 128px;
-
+    line-height: 154.24px;
     color: white;
     font-family: "Russo One";
     font-weight: 400;
@@ -64,6 +64,7 @@ html {
     font-size: 48px;
     color: #FFFFFFE0;
     line-height: 58px;
+    line-height: 58.09px;
 }
 
 /* heading-container */
@@ -232,7 +233,7 @@ td {
 
     .header-details p {
         font-size: 36px;
-        line-height: 43px;
+        line-height: 43.57px;
     }
 
     .heading-container {
