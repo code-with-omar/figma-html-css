@@ -107,3 +107,18 @@ html {
     border-bottom: 2px solid #0000001F; 
     height: 2px; 
 }
+/* list container  */
+.list-conatiner{
+    width: 90%;
+    margin: 0 auto;
+    font-size:32px;
+    font-weight: 400;
+    line-height: 38.px;
+    color:black
+}
+.order-list{
+    margin-bottom: 40px;
+}
+.alphabet-orderlist{
+    margin-left: 24px;
+}
