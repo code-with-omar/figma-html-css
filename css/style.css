@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Font from google  */
 /* Russo one font  */
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
@@ -14,111 +15,159 @@ html {
     height: 100%;
     font-family: "Inter", sans-serif;
 }
+
 /* Main container  */
 .main-container {
     max-width: 1920px;
 }
-
+.sub-container{
+    width: 90%;
+    margin: 0 auto;
+}
 .header-container {
     background-image: url('/images/image-1.png');
     background-size: cover;
     background-position: center;
-    height: 50vh;
-    position: relative; 
+    height: 903px;
+    position: relative;
 }
 
 .header-content {
+    position: relative;
+    height: 100%;
     width: 90%;
     margin: 0 auto;
-    position: relative;
-    height: 100%; 
 }
 
-.header-details  {
+.header-details {
     position: absolute;
-    bottom: 20%; 
+    bottom: 20%;
     left: 0;
-    right: 0; 
+    right: 0;
 }
-.header-details h1{
-    font-size: 48px;
- 
+
+.header-details h1 {
+    font-size: 128px;
+
     color: white;
     font-family: "Russo One";
     font-weight: 400;
     font-style: normal;
     margin-bottom: 20px;
-    
+
 }
-.header-details p{
-    font-size:24px;
-    color:#FFFFFFE0;
+
+.header-details p {
+    font-size: 48px;
+    color: #FFFFFFE0;
+    line-height: 58px;
 }
+
 /* heading-container */
-.heading-container{
-   
-    color:black;
+.heading-container {
+
+    color: black;
     font-weight: 400;
     /* line-height: 40px; */
-    width: 90%;
-    margin: 0 auto;
     font-family: Russo One;
     margin-top: 96px;
 }
-.heading-container h1{
+
+.heading-container h1 {
     font-size: 96px;
 }
-.heading-container h2{
+
+.heading-container h2 {
     font-size: 80px;
 }
-.heading-container h3{
+
+.heading-container h3 {
     font-size: 72px;
 }
-.heading-container h4{
+
+.heading-container h4 {
     font-size: 64px;
 }
-.heading-container h5{
+
+.heading-container h5 {
     font-size: 52px;
 }
-.heading-container h6{
+
+.heading-container h6 {
     font-size: 48px;
 }
 
 /* article-section  */
-.article-container{
-    width: 90%;
-    margin: 0 auto;
-    margin:60px;
+.article-container {
+    margin-top: 60px;
 }
-.article-container p{
+
+.article-container p {
     font-size: 32px;
     font-weight: 400;
     text-align: justify;
     line-height: 38.73px;
     margin-bottom: 20px;
 }
-.article-container span{
+
+.article-container span {
     font-weight: 700;
 }
 
 .article-container::after {
-    content: ""; 
-    display: block; 
-    border-bottom: 2px solid #0000001F; 
-    height: 2px; 
+    content: "";
+    display: block;
+    border-bottom: 2px solid #0000001F;
+    height: 2px;
 }
+
 /* list container  */
-.list-conatiner{
-    width: 90%;
-    margin: 0 auto;
-    font-size:32px;
+.list-container {
+    font-size: 32px;
     font-weight: 400;
-    line-height: 38.px;
-    color:black
+    line-height: 38px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 60px;
 }
-.order-list{
+
+.order-list {
     margin-bottom: 40px;
 }
-.alphabet-orderlist{
+
+.alphabet-orderlist {
     margin-left: 24px;
 }
+
+/* table container  */
+.table-container {
+    margin-top: 40px;
+}
+
+
+.table-container table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 32px;
+}
+
+.table-container th, td {
+    border: 1px solid #0000000D;;
+    text-align: center;
+    padding: 19px 20px 19px 20px
+ 
+}
+
+.table-container th {
+    background-color: #0000000D;
+}
+.bottom-image{
+    margin-top: 80px;
+}
+
+
+.bottom-image img{
+    width: 100%;
+}
+
+responsive 
