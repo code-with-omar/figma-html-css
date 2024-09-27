@@ -182,7 +182,7 @@ td {
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 1024px) {
     .header-container {
-        background-image: url('/images/image-tabet.png');
+        background-image: url('/images/image-tablet.png');
         background-size: cover;
         background-position: center;
     }
@@ -205,19 +205,18 @@ td {
 /* Mobile View */
 @media (max-width: 768px) {
     .header-container {
-        height: 780px;
         background-image: url('/images/image-mobile.png');
         background-size: cover;
         background-position: center;
     }
 
     .sub-container {
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
     }
 
     .header-details {
-        top: 25%;
+        top: 5%;
     }
 
     .header-details h1 {
