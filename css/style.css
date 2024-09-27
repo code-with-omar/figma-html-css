@@ -19,11 +19,14 @@ html {
 /* Main container  */
 .main-container {
     max-width: 1920px;
+    margin-bottom:80px;
 }
-.sub-container{
+
+.sub-container {
     width: 90%;
     margin: 0 auto;
 }
+
 .header-container {
     background-image: url('/images/image-1.png');
     background-size: cover;
@@ -68,7 +71,6 @@ html {
 
     color: black;
     font-weight: 400;
-    /* line-height: 40px; */
     font-family: Russo One;
     margin-top: 96px;
 }
@@ -151,23 +153,139 @@ html {
     font-size: 32px;
 }
 
-.table-container th, td {
-    border: 1px solid #0000000D;;
+.table-container th,
+td {
+    border: 1px solid #0000000D;
     text-align: center;
     padding: 19px 20px 19px 20px
- 
 }
 
 .table-container th {
     background-color: #0000000D;
 }
-.bottom-image{
+
+.bottom-image {
     margin-top: 80px;
+    
 }
 
 
-.bottom-image img{
+.bottom-image img {
     width: 100%;
+    
 }
 
+/* responsive  */
 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-container {
+        max-height: 768px;
+        background-size: 1024px 768px;
+        background-position: center;
+    }
+    .header-details {
+        top: 10%
+    }
+
+    .sub-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .bottom-image {
+        max-width: 980px;
+        max-height: 526px;
+     
+    }
+
+    
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+    .header-container {
+        max-height: 780px;
+        background-size: 768px 780px;
+        background-position: center;
+    }
+
+    .sub-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .header-details {
+        top: 25%
+    }
+
+    .header-details h1 {
+        font-size: 96px;
+        line-height: 115.68px;
+    }
+
+    .header-details p {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .heading-container {
+        margin-top: 60px;
+
+    }
+
+    .heading-container h1 {
+        font-size: 85.24px;
+        line-height: 102.71px;
+    }
+
+    .heading-container h2 {
+        font-size: 71.03px;
+        line-height: 85.6px;
+    }
+
+    .header-container h3 {
+        font-size: 63.93px;
+        line-height: 77.04px;
+    }
+
+    .header-container h4 {
+        font-size: 56.83;
+        line-height: 68.48px;
+    }
+
+    .header-container h5 {
+        font-size: 46.17;
+        line-height: 55.64px;
+    }
+
+    .header-container h6 {
+        font-size: 42.62;
+        line-height: 51.36px;
+    }
+
+    .article-container p {
+        font-size: 23.02px;
+        line-height: 27.86px;
+    }
+
+    .list-container {
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+
+    .table-container table {
+        font-size: 22.56px;
+        line-height: 27.31px;
+    }
+
+    .table-container th,
+    td {
+        
+        padding: 13.4px 14.1px 13.4px 14.1px
+    }
+    .bottom-image {
+        max-width: 691px;
+        max-height: 371.04px;
+        
+    }
+}
