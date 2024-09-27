@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Font from google  */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+/* Main container  */
+.main-container {
+    max-width: 1920px;
+}
+
+.header-container {
+    background-image: url('/images/image-1.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative; 
+}
+
+.header-content {
+    width: 90%;
+    margin: 0 auto;
+
+    position: relative;
+    height: 100%; 
+}
+
+.header-details  {
+    position: absolute;
+    bottom: 20%; 
+    left: 0;
+    right: 0; 
+}
+.header-details h1{
+    font-size: 48px;
+ 
+    color: white;
+    font-family: "Russo One";
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    
+}
+.header-details p{
+    font-size:24px;
+    color:#FFFFFFE0;
+}
