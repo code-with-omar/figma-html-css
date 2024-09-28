@@ -112,7 +112,7 @@ html {
 .article-container p {
     font-size: 32px;
     font-weight: 400;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 38.73px;
     margin-bottom: 20px;
 }
@@ -120,7 +120,9 @@ html {
 .article-container span {
     font-weight: 700;
 }
-
+.article-span{
+    text-decoration: underline;
+}
 .article-container::after {
     content: "";
     display: block;
