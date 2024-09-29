@@ -27,13 +27,13 @@ h6 {
 
 }
 
-/* Main container  */
-.container {
+/* Main main-container  */
+.main-container {
     max-width: 1920px;
     margin-bottom: 80px;
 }
 
-.sub-container {
+.sub-main-container {
     width: 90%;
     margin: 0 auto;
 }
@@ -62,7 +62,7 @@ h6 {
     right: 0;
 }
 
-.container h1 {
+.main-container h1 {
     font-size: 128px;
     line-height: 154.24px;
     color: white;
@@ -72,50 +72,50 @@ h6 {
     margin-bottom: 20px;
 }
 
-.container h2 {
+.main-container h2 {
     font-size: 80px;
     line-height: 96.4px;
 }
 
-.container h3 {
+.main-container h3 {
     font-size: 72px;
     line-height: 56.76px;
 }
 
-.container h4 {
+.main-container h4 {
     font-size: 64px;
     line-height: 77.12px;
 }
 
-.container h5 {
+.main-container h5 {
     font-size: 52px;
     line-height: 62.66px;
 }
 
-.container h6 {
+.main-container h6 {
     font-size: 48px;
     line-height: 57.84px;
 }
 
-.sub-container h1 {
+.sub-main-container h1 {
     font-size: 96px;
     line-height: 115.68px;
     color: black
 }
 
-.container a {
+.main-container a {
     text-decoration: none;
     color: #0051FFDE;
 
 }
 
-.container p {
+.main-container p {
     font-size: 48px;
     color: #FFFFFFE0;
     line-height: 58.09px;
 }
 
-.sub-container>p {
+.sub-main-container>p {
     font-size: 32px;
     font-weight: 400;
     color: black;
@@ -123,11 +123,11 @@ h6 {
     margin-bottom: 20px;
 }
 
-.container span {
+.main-container span {
     font-weight: 700;
 }
 
-.container table {
+.main-container table {
     border-collapse: collapse;
     width: 100%;
     font-size: 32px;
@@ -145,21 +145,21 @@ h6 {
     margin-top: 60px;
 }
 
-.sub-container p {
+.sub-main-container p {
     font-size: 32px;
     font-weight: 400;
-    color:black;
+    color: black;
     line-height: 38.73px;
     margin-bottom: 20px;
 }
 
-.container a {
+.main-container a {
     text-decoration: none;
     color: #0051FFDE;
 
 }
 
-.container span {
+.main-container span {
     font-weight: 700;
 }
 
@@ -177,7 +177,7 @@ h6 {
 
 
 
-/* list container  */
+/* list main-container  */
 .list-contents {
     font-size: 32px;
     font-weight: 400;
@@ -201,21 +201,21 @@ h6 {
     list-style-type: disc
 }
 
-/* table container  */
+/* table main-container  */
 .table-contents {
     margin-top: 26px;
 }
 
 
 
-.container th,
+.main-container th,
 td {
     border: 1px solid #0000000D;
     text-align: center;
     padding: 19px 20px;
 }
 
-.container th {
+.main-container th {
     background-color: #0000000D;
 }
 
@@ -223,7 +223,7 @@ td {
     margin-top: 111px;
 }
 
-.container img {
+.main-container img {
     width: 100%;
 }
 
@@ -241,7 +241,7 @@ td {
         top: 10%;
     }
 
-    .sub-container {
+    .sub-main-container {
         width: 95%;
         margin: 0 auto;
     }
@@ -288,12 +288,12 @@ td {
         top: 5%;
     }
 
-    .container h1 {
+    .main-container h1 {
         font-size: 60px;
         line-height: 115.68px;
     }
 
-    .container p {
+    .main-container p {
         font-size: 36px;
         line-height: 43.57px;
     }
@@ -302,22 +302,22 @@ td {
         margin-top: 72px;
     }
 
-    .sub-container h1 {
+    .sub-main-container h1 {
         font-size: 85.24px;
         line-height: 102.71px;
     }
 
-    .container h2 {
+    .main-container h2 {
         font-size: 71.03px;
         line-height: 85.6px;
     }
 
-    .container h3 {
+    .main-container h3 {
         font-size: 63.93px;
         line-height: 77.04px;
     }
 
-    .container h4 {
+    .main-container h4 {
         font-size: 56.83px;
         line-height: 68.48px;
     }
@@ -327,7 +327,7 @@ td {
         line-height: 55.64px;
     }
 
-    .container h6 {
+    .main-container h6 {
         font-size: 42.62px;
         line-height: 51.36px;
     }
@@ -336,7 +336,7 @@ td {
         margin-top: 39.76px;
     }
 
-    .sub-container p {
+    .sub-main-container p {
         font-size: 23.02px;
         line-height: 27.86px;
         margin-bottom: 71.73;
@@ -347,12 +347,12 @@ td {
         line-height: 29.05px;
     }
 
-    .container table {
+    .main-container table {
         font-size: 22.56px;
         line-height: 27.31px;
     }
 
-    .container th,
+    .main-container th,
     td {
         padding: 13.4px 14.1px;
     }
