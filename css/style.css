@@ -16,7 +16,9 @@ html {
     height: 100%;
     font-family: "Inter", sans-serif;
 }
-
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 38px;
+}
 /* Main container  */
 .main-container {
     max-width: 1920px;
@@ -73,12 +75,13 @@ html {
     color: black;
     font-weight: 400;
     font-family: Russo One;
-    margin-top: 96px;
+    margin-top: 123px;
 }
 
 .heading-container h1 {
     font-size: 96px;
     line-height: 115.68px;
+    
 }
 
 .heading-container h2 {
@@ -221,6 +224,9 @@ td {
 
 /* Mobile View */
 @media (max-width: 768px) {
+    h1,h2,h3,h4,h5,h6{
+        margin-bottom: 33.74px;
+    }
     .header-container {
         background-image: url('/images/image-mobile.png');
         background-size: cover;
