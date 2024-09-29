@@ -16,9 +16,16 @@ html {
     height: 100%;
     font-family: "Inter", sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 38px;
 }
+
 /* Main container  */
 .main-container {
     max-width: 1920px;
@@ -81,7 +88,7 @@ h1,h2,h3,h4,h5,h6{
 .heading-container h1 {
     font-size: 96px;
     line-height: 115.68px;
-    
+
 }
 
 .heading-container h2 {
@@ -150,7 +157,7 @@ h1,h2,h3,h4,h5,h6{
     line-height: 38.73px;
     color: #000000DE;
     margin-left: 40px;
-    margin-top: 60px;
+    margin-top: 63px;
 }
 
 .order-list {
@@ -163,12 +170,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .circle-unorderlist {
+    margin-top: 63px;
     list-style-type: disc
 }
 
 /* table container  */
 .table-container {
-    margin-top: 40px;
+    margin-top: 26px;
 }
 
 .table-container table {
@@ -190,7 +198,7 @@ td {
 }
 
 .bottom-image {
-    margin-top: 80px;
+    margin-top: 111px;
 }
 
 .bottom-image img {
@@ -216,7 +224,16 @@ td {
         margin: 0 auto;
     }
 
+    .list-container {
+        margin-top: 29px;
+    }
+
+    .table-container {
+        margin-top: 78px;
+    }
+
     .bottom-image {
+        margin-top: 78px;
         max-width: 980px;
         max-height: 526px;
     }
@@ -224,9 +241,16 @@ td {
 
 /* Mobile View */
 @media (max-width: 768px) {
-    h1,h2,h3,h4,h5,h6{
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin-bottom: 33.74px;
     }
+
     .header-container {
         background-image: url('/images/image-mobile.png');
         background-size: cover;
@@ -253,7 +277,7 @@ td {
     }
 
     .heading-container {
-        margin-top: 60px;
+        margin-top: 72px;
     }
 
     .heading-container h1 {
@@ -286,9 +310,14 @@ td {
         line-height: 51.36px;
     }
 
+    .article-container {
+        margin-top: 39.76px;
+    }
+
     .article-container p {
         font-size: 23.02px;
         line-height: 27.86px;
+        margin-bottom: 71.73;
     }
 
     .list-container {
@@ -307,6 +336,7 @@ td {
     }
 
     .bottom-image {
+        margin-top: 72.47px;
         max-width: 691px;
         max-height: 371.04px;
     }
