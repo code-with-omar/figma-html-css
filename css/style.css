@@ -33,7 +33,7 @@ h6 {
     margin-bottom: 80px;
 }
 
-.sub-main-container {
+.sub-container {
     width: 90%;
     margin: 0 auto;
 }
@@ -97,7 +97,7 @@ h6 {
     line-height: 57.84px;
 }
 
-.sub-main-container h1 {
+.sub-container h1 {
     font-size: 96px;
     line-height: 115.68px;
     color: black
@@ -115,7 +115,7 @@ h6 {
     line-height: 58.09px;
 }
 
-.sub-main-container>p {
+.sub-container>p {
     font-size: 32px;
     font-weight: 400;
     color: black;
@@ -145,7 +145,7 @@ h6 {
     margin-top: 60px;
 }
 
-.sub-main-container p {
+.sub-container p {
     font-size: 32px;
     font-weight: 400;
     color: black;
@@ -241,7 +241,7 @@ td {
         top: 10%;
     }
 
-    .sub-main-container {
+    .sub-container {
         width: 95%;
         margin: 0 auto;
     }
@@ -302,7 +302,7 @@ td {
         margin-top: 72px;
     }
 
-    .sub-main-container h1 {
+    .sub-container h1 {
         font-size: 85.24px;
         line-height: 102.71px;
     }
@@ -336,7 +336,7 @@ td {
         margin-top: 39.76px;
     }
 
-    .sub-main-container p {
+    .sub-container p {
         font-size: 23.02px;
         line-height: 27.86px;
         margin-bottom: 71.73;
