@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 /* Font from google  */
@@ -118,17 +118,21 @@ html {
     line-height: 38.73px;
     margin-bottom: 20px;
 }
-.article-container a{
+
+.article-container a {
     text-decoration: none;
     color: #0051FFDE;
 
 }
+
 .article-container span {
     font-weight: 700;
 }
-.article-span{
+
+.article-span {
     text-decoration: underline;
 }
+
 .article-container::after {
     content: "";
     display: block;
@@ -150,8 +154,13 @@ html {
     margin-bottom: 40px;
 }
 
-.alphabet-orderlist {
+.alphabet-orderlist,
+.circle-unorderlist {
     margin-left: 24px;
+}
+
+.circle-unorderlist {
+    list-style-type: disc
 }
 
 /* table container  */
