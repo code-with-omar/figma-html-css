@@ -67,7 +67,6 @@ h6 {
     line-height: 154.24px;
     color: white;
     font-family: "Russo One";
-
     font-style: normal;
     margin-bottom: 20px;
 }
@@ -115,13 +114,6 @@ h6 {
     line-height: 58.09px;
 }
 
-.sub-container>p {
-    font-size: 32px;
-    font-weight: 400;
-    color: black;
-    line-height: 38.73px;
-    margin-bottom: 20px;
-}
 
 .main-container span {
     font-weight: 700;
@@ -133,7 +125,12 @@ h6 {
     font-size: 32px;
     line-height: 38.73px;
 }
-
+.main-container ol,ul,li{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    color: #000000DE;
+}
 .heading-contents {
     color: black;
     font-weight: 400;
@@ -179,27 +176,18 @@ h6 {
 
 /* list main-container  */
 .list-contents {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 38.73px;
-    color: #000000DE;
+    
     margin-left: 40px;
     margin-top: 63px;
 }
-
 .order-list {
     margin-bottom: 40px;
 }
-
 .alphabet-orderlist,
 .circle-unorderlist {
     margin-left: 40px;
 }
 
-.circle-unorderlist {
-
-    list-style-type: disc
-}
 
 /* table main-container  */
 .table-contents {
