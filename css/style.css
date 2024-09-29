@@ -37,7 +37,7 @@ h6 {
     margin: 0 auto;
 }
 
-.header-container {
+.header-contents {
     background-image: url('/images/image-1.png');
     object-fit: cover;
     background-size: cover;
@@ -78,50 +78,50 @@ h6 {
 }
 
 /* heading-container */
-.heading-container {
+.heading-contents {
     color: black;
     font-weight: 400;
     font-family: Russo One;
     margin-top: 123px;
 }
 
-.heading-container h1 {
+.heading-contents h1 {
     font-size: 96px;
     line-height: 115.68px;
 
 }
 
-.heading-container h2 {
+.heading-contents h2 {
     font-size: 80px;
     line-height: 96.4px;
 }
 
-.heading-container h3 {
+.heading-contents h3 {
     font-size: 72px;
     line-height: 56.76px;
 }
 
-.heading-container h4 {
+.heading-contents h4 {
     font-size: 64px;
     line-height: 77.12px;
 }
 
-.heading-container h5 {
+.heading-contents h5 {
     font-size: 52px;
     line-height: 62.66px;
 }
 
-.heading-container h6 {
+.heading-contents h6 {
     font-size: 48px;
     line-height: 57.84px;
 }
 
 /* article-section  */
-.article-container {
+.article-contents {
     margin-top: 60px;
 }
 
-.article-container p {
+.article-contents p {
     font-size: 32px;
     font-weight: 400;
     /* text-align: justify; */
@@ -129,13 +129,13 @@ h6 {
     margin-bottom: 20px;
 }
 
-.article-container a {
+.article-contents a {
     text-decoration: none;
     color: #0051FFDE;
 
 }
 
-.article-container span {
+.article-contents span {
     font-weight: 700;
 }
 
@@ -143,7 +143,7 @@ h6 {
     text-decoration: underline;
 }
 
-.article-container::after {
+.article-contents::after {
     content: "";
     display: block;
     border-bottom: 2px solid #0000001F;
@@ -151,7 +151,7 @@ h6 {
 }
 
 /* list container  */
-.list-container {
+.list-contents {
     font-size: 32px;
     font-weight: 400;
     line-height: 38.73px;
@@ -170,30 +170,30 @@ h6 {
 }
 
 .circle-unorderlist {
-    
+
     list-style-type: disc
 }
 
 /* table container  */
-.table-container {
+.table-contents {
     margin-top: 26px;
 }
 
-.table-container table {
+.table-contents table {
     border-collapse: collapse;
     width: 100%;
     font-size: 32px;
     line-height: 38.73px;
 }
 
-.table-container th,
+.table-contents th,
 td {
     border: 1px solid #0000000D;
     text-align: center;
     padding: 19px 20px;
 }
 
-.table-container th {
+.table-contents th {
     background-color: #0000000D;
 }
 
@@ -209,7 +209,7 @@ td {
 
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .header-container {
+    .header-contents {
         background-image: url('/images/image-tablet.png');
         background-size: cover;
         background-position: center;
@@ -224,11 +224,11 @@ td {
         margin: 0 auto;
     }
 
-    .list-container {
+    .list-contents {
         margin-top: 29px;
     }
 
-    .table-container {
+    .table-contents {
         margin-top: 78px;
     }
 
@@ -251,13 +251,13 @@ td {
         margin-bottom: 33.74px;
     }
 
-    .header-container {
+    .header-contents {
         background-image: url('/images/image-mobile.png');
         background-size: cover;
         background-position: center;
     }
 
-    .sub-container {
+    .sub-contents {
         width: 90%;
         margin: 0 auto;
     }
@@ -276,61 +276,61 @@ td {
         line-height: 43.57px;
     }
 
-    .heading-container {
+    .heading-contents {
         margin-top: 72px;
     }
 
-    .heading-container h1 {
+    .heading-contents h1 {
         font-size: 85.24px;
         line-height: 102.71px;
     }
 
-    .heading-container h2 {
+    .heading-contents h2 {
         font-size: 71.03px;
         line-height: 85.6px;
     }
 
-    .heading-container h3 {
+    .heading-contents h3 {
         font-size: 63.93px;
         line-height: 77.04px;
     }
 
-    .heading-container h4 {
+    .heading-contents h4 {
         font-size: 56.83px;
         line-height: 68.48px;
     }
 
-    .heading-container h5 {
+    .heading-contents h5 {
         font-size: 46.17px;
         line-height: 55.64px;
     }
 
-    .heading-container h6 {
+    .heading-contents h6 {
         font-size: 42.62px;
         line-height: 51.36px;
     }
 
-    .article-container {
+    .article-contents {
         margin-top: 39.76px;
     }
 
-    .article-container p {
+    .article-contents p {
         font-size: 23.02px;
         line-height: 27.86px;
         margin-bottom: 71.73;
     }
 
-    .list-container {
+    .list-contents {
         font-size: 24px;
         line-height: 29.05px;
     }
 
-    .table-container table {
+    .table-contents table {
         font-size: 22.56px;
         line-height: 27.31px;
     }
 
-    .table-container th,
+    .table-contents th,
     td {
         padding: 13.4px 14.1px;
     }
