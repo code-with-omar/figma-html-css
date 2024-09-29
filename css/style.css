@@ -24,6 +24,7 @@ h4,
 h5,
 h6 {
     margin-bottom: 38px;
+
 }
 
 /* Main container  */
@@ -61,23 +62,78 @@ h6 {
     right: 0;
 }
 
-.header-details h1 {
+.container h1 {
     font-size: 128px;
     line-height: 154.24px;
     color: white;
     font-family: "Russo One";
-    font-weight: 400;
+
     font-style: normal;
     margin-bottom: 20px;
 }
 
-.header-details p {
+.container h2 {
+    font-size: 80px;
+    line-height: 96.4px;
+}
+
+.container h3 {
+    font-size: 72px;
+    line-height: 56.76px;
+}
+
+.container h4 {
+    font-size: 64px;
+    line-height: 77.12px;
+}
+
+.container h5 {
+    font-size: 52px;
+    line-height: 62.66px;
+}
+
+.container h6 {
+    font-size: 48px;
+    line-height: 57.84px;
+}
+
+.sub-container h1 {
+    font-size: 96px;
+    line-height: 115.68px;
+    color: black
+}
+
+.container a {
+    text-decoration: none;
+    color: #0051FFDE;
+
+}
+
+.container p {
     font-size: 48px;
     color: #FFFFFFE0;
     line-height: 58.09px;
 }
 
-/* heading-container */
+.sub-container>p {
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+    line-height: 38.73px;
+    margin-bottom: 20px;
+}
+
+.container span {
+    font-weight: 700;
+}
+
+.container table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 32px;
+    line-height: 38.73px;
+}
+
 .heading-contents {
     color: black;
     font-weight: 400;
@@ -85,57 +141,25 @@ h6 {
     margin-top: 123px;
 }
 
-.heading-contents h1 {
-    font-size: 96px;
-    line-height: 115.68px;
-
-}
-
-.heading-contents h2 {
-    font-size: 80px;
-    line-height: 96.4px;
-}
-
-.heading-contents h3 {
-    font-size: 72px;
-    line-height: 56.76px;
-}
-
-.heading-contents h4 {
-    font-size: 64px;
-    line-height: 77.12px;
-}
-
-.heading-contents h5 {
-    font-size: 52px;
-    line-height: 62.66px;
-}
-
-.heading-contents h6 {
-    font-size: 48px;
-    line-height: 57.84px;
-}
-
-/* article-section  */
 .article-contents {
     margin-top: 60px;
 }
 
-.article-contents p {
+.sub-container p {
     font-size: 32px;
     font-weight: 400;
-    /* text-align: justify; */
+    color:black;
     line-height: 38.73px;
     margin-bottom: 20px;
 }
 
-.article-contents a {
+.container a {
     text-decoration: none;
     color: #0051FFDE;
 
 }
 
-.article-contents span {
+.container span {
     font-weight: 700;
 }
 
@@ -149,6 +173,9 @@ h6 {
     border-bottom: 2px solid #0000001F;
     height: 2px;
 }
+
+
+
 
 /* list container  */
 .list-contents {
@@ -179,21 +206,16 @@ h6 {
     margin-top: 26px;
 }
 
-.table-contents table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 32px;
-    line-height: 38.73px;
-}
 
-.table-contents th,
+
+.container th,
 td {
     border: 1px solid #0000000D;
     text-align: center;
     padding: 19px 20px;
 }
 
-.table-contents th {
+.container th {
     background-color: #0000000D;
 }
 
@@ -201,7 +223,7 @@ td {
     margin-top: 111px;
 }
 
-.bottom-image img {
+.container img {
     width: 100%;
 }
 
@@ -266,12 +288,12 @@ td {
         top: 5%;
     }
 
-    .header-details h1 {
+    .container h1 {
         font-size: 60px;
         line-height: 115.68px;
     }
 
-    .header-details p {
+    .container p {
         font-size: 36px;
         line-height: 43.57px;
     }
@@ -280,22 +302,22 @@ td {
         margin-top: 72px;
     }
 
-    .heading-contents h1 {
+    .sub-container h1 {
         font-size: 85.24px;
         line-height: 102.71px;
     }
 
-    .heading-contents h2 {
+    .container h2 {
         font-size: 71.03px;
         line-height: 85.6px;
     }
 
-    .heading-contents h3 {
+    .container h3 {
         font-size: 63.93px;
         line-height: 77.04px;
     }
 
-    .heading-contents h4 {
+    .container h4 {
         font-size: 56.83px;
         line-height: 68.48px;
     }
@@ -305,7 +327,7 @@ td {
         line-height: 55.64px;
     }
 
-    .heading-contents h6 {
+    .container h6 {
         font-size: 42.62px;
         line-height: 51.36px;
     }
@@ -314,7 +336,7 @@ td {
         margin-top: 39.76px;
     }
 
-    .article-contents p {
+    .sub-container p {
         font-size: 23.02px;
         line-height: 27.86px;
         margin-bottom: 71.73;
@@ -325,12 +347,12 @@ td {
         line-height: 29.05px;
     }
 
-    .table-contents table {
+    .container table {
         font-size: 22.56px;
         line-height: 27.31px;
     }
 
-    .table-contents th,
+    .container th,
     td {
         padding: 13.4px 14.1px;
     }
