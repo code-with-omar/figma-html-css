@@ -282,8 +282,7 @@ td {
 
     .header-details {
         position: absolute;
-        top: 25%;
-        transform: translateY(-25%);
+        top: 5%
     }
 
     .main-container h1 {
